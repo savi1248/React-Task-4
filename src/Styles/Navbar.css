@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128,0.5);
+    font-weight: bold;
+}
+nav .title{
+    margin-left: 100px;
+    margin-top: 5px;
+    color: white;
+}
+nav ul{
+    display: flex;
+    margin: 7px 100px 7px 0;  
+}
+nav ul li{
+    cursor: pointer;
+    list-style: none;
+    padding: 0.4rem;
+    margin: 0.05rem;
+    color: white;
+}
