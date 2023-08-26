@@ -1,38 +1,58 @@
 import './App.css';
-import Chennai from './Components/Chennai';
-import ImgSlider from './Components/ImgSlider';
+
 import Navbar from './Components/Navbar';
-import TouristPlaces from './Components/TouristPlaces';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import Rameswaram from './Components/Rameswaram';
-import Kodaikanal from './Components/Kodaikanal';
-import Ooty from './Components/Ooty';
-import Kanyakumari from './Components/Kanyakumari';
-import Kumbakonam from './Components/Kumbakonam';
-import Madurai from './Components/Madurai';
-import Yarcaud from './Components/Yarcaud';
-import Theni from './Components/Theni';
-import Hogenakkal from './Components/Hogenakkal';
+
+import Places from './Components/Places';
+import {BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Components/Home';
+import Chennaito from './Components/Chennaito';
+import Rameshwaramto  from './Components/Rameshwaramto';
+import Kodaikanalto  from './Components/Kodaikanalto';
+import Ootyto  from './Components/Ootyto';
+import Maduraito  from './Components/Maduraito';
+import Kanyakumarito  from './Components/Kanyakumarito';
+import Kumbakonamto from './Components/Kumbakonamto';
+import Yercardto from './Components/Yercardto';
+import Hogenakkalto from './Components/Hogenakkalto';
+import  Thenito from './Components/Thenito'
+
+
+
+
+
+
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <ImgSlider />
-      <TouristPlaces />
-      <Chennai />
-      <Rameswaram />
-      <Kodaikanal />
-      <Ooty />
-      <Kanyakumari />
-      <Kumbakonam />
-      <Madurai />
-      <Yarcaud />
-      <Theni/>
-      <Hogenakkal />
+     <BrowserRouter>
+     <Navbar />
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='Places' element={<Places />} />
+
+        </Routes>
+      </BrowserRouter>
+      <Chennaito />
+      <Rameshwaramto />
+       <Kodaikanalto />
+      <Ootyto />
+      <Maduraito />
+      <Kanyakumarito />
+      <Kumbakonamto />
+      <Yercardto />
+      <Thenito />
+      <Hogenakkalto /> 
+
+      
+      
+     
+      
+
     </div>
   );
 }

@@ -1,0 +1,29 @@
+.text-center {
+    margin-top: 10px;
+}
+
+.mg-5 {
+    margin: 3rem 7.5rem !important;
+}
+
+.m-5 p,
+.parag p {
+    text-indent: 4em;
+    text-align: justify;
+    font-size: 15px;
+
+    font-weight: 400;
+}
+
+.img-p h6 {
+
+    font-weight: 400;
+}
+
+.d-flex  p {
+    text-indent: 4em;
+    text-align: justify;
+    font-size: 15px;
+
+    font-weight: 400;
+}

@@ -133,7 +133,7 @@ const TouristPlaces = () => {
                     </Col>
                     <Col className="text-center">
                         <li>
-                            <Link to='hogenkkal' smooth='true' offset='100' duration='500'>Hogenakkal</Link> 
+                            <Link to='hogenakkal' smooth='true' offset='100' duration='500'>Hogenakkal</Link> 
                             {/* <a href="#hogenkkal">Hogenakkal</a> */}
                         </li>
                     </Col>

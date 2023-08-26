@@ -4,7 +4,7 @@ import Hogenakkal1 from '../Images/hogenakkal1.jpeg'
 import Hogenakkal2 from '../Images/hogenakkal2.jpeg'
 import Hogenakkal3 from '../Images/hogenakkal3.jpeg'
 import Hogenakkal4 from '../Images/hokenakkal4.jpeg'
-import { Row, Col, Container } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
