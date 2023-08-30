@@ -31,11 +31,12 @@ const Navbar = () => {
          
         
         <li>
-          <Link to={"/Best Time to Visit"} className="nav-link text-light">Best Time to Visit</Link> 
+        {/* <a href ="Best Time to Visit" className="nav-link text-light">Best Time to Visit</a>  */}
+          <Link to="/Best " className="nav-link text-light">Best Time to Visit</Link> 
         </li>
 
          <li>
-            <a href ="packages" className="nav-link text-light">packages</a> 
+         <Link to="/Packages " className="nav-link text-light">Packages</Link> 
          </li>
 
          <li>

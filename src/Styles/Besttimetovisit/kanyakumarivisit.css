@@ -1,0 +1,46 @@
+.tourism-heading{
+    margin-top: 80px;
+    text-align: center;
+}
+.tourism-sub-heading{
+   margin-bottom: 80px;
+   text-align: center;
+}
+.besttimetovisit-primary-heading{
+    margin-bottom: 25px;
+}
+.besttimetovisit-primary-sub-heading{
+   margin-top: 50px;
+}
+.besttimetovisit-text{
+   text-indent: 20rem;
+   text-align: justify;
+}
+.besttimetovisit-bottomtext{
+    margin-bottom: 75px;
+}
+.season-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.offcanvas-title{
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.modal-heading{
+    font-weight: bolder;
+}
+.model-margintop{
+    margin-top: -50px;
+}
+.modal-img{
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.modal-img-text{
+    text-align: center;
+}
+.even-marginbttom{
+    margin-bottom: 50px;
+}

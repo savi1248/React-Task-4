@@ -1,20 +1,22 @@
 import React from 'react'
-import Chennai from './Chennai';
-import ImgSlider from './ImgSlider';
-import Rameswaram from './Rameswaram';
-import Kodaikanal from './Kodaikanal';
-import Ooty from './Ooty';
-import Kanyakumari from './Kanyakumari';
-import Kumbakonam from './Kumbakonam';
-import Madurai from './Madurai';
-import Yarcaud from './Yarcaud';
-import Theni from './Theni';
-import Hogenakkal from './Hogenakkal';
-const Home = () => {
+import Chennai from '../Components/Home/Chennai';
+import ImgSlider from '../Components/Home/ImgSlider';
+import TouristPlaces from '../Components/Home/TouristPlaces';
+import Rameswaram from '../Components/Home/Rameswaram';
+import Kodaikanal from '../Components/Home/Kodaikanal';
+import Ooty from '../Components/Home/Ooty';
+import Kanyakumari from '../Components/Home/Kanyakumari';
+import Kumbakonam from '../Components/Home/Kumbakonam';
+import Madurai from '../Components/Home/Madurai';
+import Yarcaud from '../Components/Home/Yercaud';
+import Theni from '../Components/Home/Theni';
+import Hogenakkal from '../Components/Home/Hogenakkal';
+
+function Home  () {
   return (
     <div>
-
       <ImgSlider />
+      <TouristPlaces />
       <Chennai />
       <Rameswaram />
       <Kodaikanal />

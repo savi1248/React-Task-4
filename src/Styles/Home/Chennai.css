@@ -1,0 +1,43 @@
+.primary-heading{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: -10px;
+  }
+  .primary-text-heading{
+    font-size: 1rem;
+     /* text-align: center;  */
+
+  }
+  
+  .primary-text {
+   font-size: 1.rem;
+   text-align: justify;
+
+  }
+  .secondary-heading{
+    margin: 40px 0 30px 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .bottomMargin{
+    margin-bottom: 75px;
+  }
+  .touristPlaceName{
+    margin-bottom: 5px;
+  }
+  .yercaud-topMargin{
+    margin-top: -35px;
+  }
+  .myImage{
+    height:340px;
+    width:550px;
+    
+  }
+  /* img .img1{
+    float:inline-end;
+    height:340px;
+    width:550px;
+
+    
+  }
+   */
