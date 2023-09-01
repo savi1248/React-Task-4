@@ -44,7 +44,7 @@ const Navbar = () => {
          </li>
          <li>
 
-            <a href ="Food" className="nav-link text-light">Food</a> 
+         <Link to="/Food " className="nav-link text-light">Food</Link> 
          </li>
          
         </ul>

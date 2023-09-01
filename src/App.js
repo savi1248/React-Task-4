@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
  import Placestovisit from './Components/Placestovisit';
  import Home from './Components/Home';
 import Besttimetovisit from './Components/Besttimetovisit';
+ import Food from './Components/Food'
  import Packages from './Components/Packages'
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/Places' element={<Placestovisit/>} />
         <Route path='/Best' element={<Besttimetovisit/>} />
+        <Route path='/Food' element={<Food/>} />
         <Route path='/Packages' element={<Packages/>} />
          
         </Routes>

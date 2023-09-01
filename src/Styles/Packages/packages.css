@@ -1,0 +1,30 @@
+.packages-table {
+    border: 2px solid black;
+    margin-bottom: 50px;
+    line-height: normal;
+}
+
+
+body {
+    font-family: manrope,sans-serif;
+    background:#fff;
+    line-height: 1.7rem;
+    letter-spacing: .3px;
+}
+.packages-table td {
+    
+    vertical-align: middle;
+}
+.packages-table .get-quotes {
+    color: #f86960;
+    cursor: pointer;
+}
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    shape-rendering: geometricPrecision;
+    text-rendering: geometricPrecision;
+    image-rendering: optimizeQuality;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+}
