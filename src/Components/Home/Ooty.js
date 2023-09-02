@@ -12,7 +12,7 @@ const Ooty = () => {
   return (
     <section id='ooty'className='container'>
       <div >
-        <h1 className='primary-heading touristPlaceName'>04. Ooty</h1>
+        <h2 className=''>04. Ooty</h2>
         
         <Row className="align-items-center">
           <Col md={6}  className="text-right">
@@ -25,9 +25,9 @@ const Ooty = () => {
           </Col>
           <Col md={6}> 
             <br />
-            <h1 className='primary-text-heading'>
+            <h5 className='fw-bold'>
               "Queen of the Nilgiris"
-            </h1> 
+            </h5> 
             <p className='primary-text'>
               
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nestled amidst Nilgiri hills, Ooty, also known as Udagamandalam, is a hill station in Tamil Nadu which serves as a top-rated tourist destination. Once regarded as the summer headquarters of the East India Company, the Queen of the hills is a picturesque getaway.
@@ -51,7 +51,7 @@ const Ooty = () => {
             <Card>
               <Card.Img variant="top" src={Ooty1} />
               <Card.Body>
-                <Card.Title>Nilgiri Mountain Railway</Card.Title>
+                <Card.Title className='fw-bold'>Nilgiri Mountain Railway</Card.Title>
                 <Card.Text>
                 Nilgiri Mountain Railway, also known as Toy Train in Ooty, is one of the key attractions of the popular hill...
                 </Card.Text>
@@ -63,7 +63,7 @@ const Ooty = () => {
             <Card>
               <Card.Img variant="top" src={Ooty2} />
               <Card.Body>
-                <Card.Title>Ooty Botanical Garden</Card.Title>
+                <Card.Title className='fw-bold'>Ooty Botanical Garden</Card.Title>
                 <Card.Text>
                 Ooty Botanical Gardens lie on the lower slopes of the Doddabetta peak, the Government Botanical...
                 </Card.Text>
@@ -75,7 +75,7 @@ const Ooty = () => {
             <Card>
               <Card.Img variant="top" src={Ooty3} />
               <Card.Body>
-                <Card.Title>Emerald Lake</Card.Title>
+                <Card.Title className='fw-bold'>Emerald Lake</Card.Title>
                 <Card.Text>
                 Emerald Lake is situated in Emerald Village, around 20-22 kilometres from the main city of Ooty and...
                 </Card.Text>
@@ -87,7 +87,7 @@ const Ooty = () => {
             <Card>
               <Card.Img variant="top" src={Ooty4} />
               <Card.Body>
-                <Card.Title>Dolphin's Nose</Card.Title>
+                <Card.Title className='fw-bold'>Dolphin's Nose</Card.Title>
                 <Card.Text>
                 Located about 12 km away from Coonoor is the Dolphin's Nose about 1,500 meters above sea level. The tip...
                 </Card.Text>

@@ -49,8 +49,9 @@ With favorites like Dharasuram Temple, Sarangapani Temple, and Arulmigu Shri Swa
             </span>
             <Card.Body>
               <p className='text-start fw-bold  fs-5 ' style={{ color:"green" }}>1 Night / 2 Days</p>
-              <Card.Title><h5 className='fw-bold'> Kumbakonam Packages</h5></Card.Title>
-
+              <Card.Title>
+                </Card.Title>
+                <h4 className='fw-bold  '>  Kumbakonam Packages</h4>
               <Card.Text>
                 <h6 style={{ color:"red" }}> packages ₹15,000/-  </h6>
                 <p style={{ color:"blue" }}>Hotels, Meals</p>

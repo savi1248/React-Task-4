@@ -9,7 +9,7 @@ const ChennaiPlace = () => {
         <section className=" ">
             <div className='  text-md-center m-5  '>
                 <h3>Chennai</h3>
-                <h4>Tourist Places Visit</h4>
+                <h4 className="">Tourist Places Visit</h4>
             </div>
 
             <div className=' d-flex '>

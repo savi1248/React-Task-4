@@ -12,7 +12,7 @@ const Theni = () => {
   return (
     <section id='theni'className='container'>
     <div >
-      <h1 className='primary-heading'>09. Theni</h1>
+      <h2 >09. Theni</h2>
       
       <Row className="align-items-center">
         <Col md={6}  className="text-right">
@@ -25,9 +25,9 @@ const Theni = () => {
         </Col>
         <Col md={6}> 
           <br />
-          <h1 className='primary-text-heading'>
+          <h5 className='fw-bold'>
             "A little hamlet in Tamil Nadu"
-          </h1> 
+          </h5> 
           <p className='primary-text'>
             
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Theni Tourism Dotted by luscious patches of greenery and beautiful waterfalls, Theni is a little hamlet on the Western Ghats. The topography of Theni mainly consists of hills and ranges. It has plenty of rivers and dams and is an abode to 27 forests hence filled with unparalleled greenery.
@@ -51,7 +51,7 @@ const Theni = () => {
           <Card>
             <Card.Img variant="top" src={Theni1} />
             <Card.Body>
-              <Card.Title>Chinna Suruli Falls</Card.Title>
+              <Card.Title className='fw-bold'>Chinna Suruli Falls</Card.Title>
               <Card.Text>
               Located in the lap of wild, green forests, Chinna Suruli Falls is a picturesque destination to visit from Theni...
               </Card.Text>
@@ -63,7 +63,7 @@ const Theni = () => {
           <Card>
             <Card.Img variant="top" src={Theni2} />
             <Card.Body>
-              <Card.Title>Kumbakkarai Falls</Card.Title>
+              <Card.Title className='fw-bold'>Kumbakkarai Falls</Card.Title>
               <Card.Text>
               Located in Dindigul district near Theni in Tamil Nadu,Kumbakkarai Falls is a mesmerising waterfall that..
               </Card.Text>
@@ -75,7 +75,7 @@ const Theni = () => {
           <Card>
             <Card.Img variant="top" src={Theni3} />
             <Card.Body>
-              <Card.Title>Meghamalai</Card.Title>
+              <Card.Title className='fw-bold'>Meghamalai</Card.Title>
               <Card.Text>
               Tucked within the Western  Ghats of Tamil Nadu, Meghamalai in Theni district is the kind of hidden paradise...
               </Card.Text>
@@ -87,7 +87,7 @@ const Theni = () => {
           <Card>
             <Card.Img variant="top" src={Theni4} />
             <Card.Body>
-              <Card.Title>Suruli Falls</Card.Title>
+              <Card.Title className='fw-bold'>Suruli Falls</Card.Title>
               <Card.Text>
               Suruli Falls is a beautiful waterfall in the Theni district of Tamil Nadu and one of the major tourist attractions of...
               </Card.Text>

@@ -15,7 +15,7 @@ import pic4 from '../../Images/pic4.jpg'
 
 
 
-import { FaMobileAlt, FaUserAlt, FaVoicemail, FaPlaneDeparture, } from 'react-icons/fa';
+// import { FaMobileAlt, FaUserAlt, FaVoicemail, FaPlaneDeparture, } from 'react-icons/fa';
 // import Rameshwarampack from './Rameshwarampack';
 
 const Chennaipack = () => {
@@ -156,7 +156,7 @@ const Chennaipack = () => {
            
             <Card.Body>
             <p className='text-start fw-bold  fs-5 ' style={{ color:"green" }}>3 Days/2 Nights</p>
-              <Card.Title><h5 className='fw-bold  '>  Chennai Packages</h5></Card.Title>
+              <Card.Title><h4 className='fw-bold  '>  Chennai Packages</h4></Card.Title>
 
               <Card.Text>
               <h6 style={{ color:"red" }}> packages ₹9,000/-  </h6>

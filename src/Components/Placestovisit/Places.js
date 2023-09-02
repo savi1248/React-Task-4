@@ -12,9 +12,9 @@ const Places = () => {
     
                     <Col md={6}> 
                         <br />
-                        <h1 className='primary-heading'>
+                        <h3 className=''>
                         Tourist Places To Visit In Tamil Nadu
-                        </h1> 
+                        </h3> 
                         <br />
                         <p className='primary-text'>
                            Chennai, Ooty, Pondicherry, Kodaikanal, Coimbatore, Yelagiri, Masinagudi, Conoor, Madumalai, Yercaud, Madurai, Thanjavur, Mahabalipuram, Kanyakumari, Kotagiri, Nilgiri, Krishnagiri, Auroville, Theni, Hullathy, Rameshwaram, Kalhatty Ghat and more.

@@ -69,7 +69,7 @@ const Chennaivisit = () => {
             <section className='mt-5 mg-5' >
                 <div className="text-center">
                     <h4 >TAMILNADU TOURISM</h4>
-                    <h5 className='mt-2'>Best Time To Visit</h5>
+                    <h5 className='mt-2 fw-bold'>Best Time To Visit</h5>
 
 
                     <div className="row row-cols-2 mt-5" >
@@ -77,8 +77,8 @@ const Chennaivisit = () => {
                         <div className='parag'>
 
                             <div className="text-start" > <br />
-                                <h3 className='mt-4 '>01.Chennai</h3>
-                                <h5 className='mt-5' >What is the Best time to visit: </h5>
+                                <h2 className='mt-4 '>01.Chennai</h2>
+                                <h5 className='mt-5 fw-bold' >What is the Best time to visit: </h5>
                             </div>
 
                             <p style={{  fontSize: "18px", }}>
@@ -105,7 +105,7 @@ const Chennaivisit = () => {
                             >
                                 <Modal.Dialog>
                                     <Modal.Header closeButton className='text-center'>
-                                        <Modal.Title>More About Best Time To Travel To Chennai</Modal.Title>
+                                        <Modal.Title className='fw-bold'>More About Best Time To Travel To Chennai</Modal.Title>
                                     </Modal.Header>
 
                                     <Modal.Body>

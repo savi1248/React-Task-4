@@ -72,8 +72,8 @@ const Maduraivisit = () => {
                         <div className='parag'>
 
                             <div className="text-start"> <br />
-                                <h3 className='mt-4 '>07.Madurai</h3>
-                                <h5 className='mt-5' >What is the Best time to visit: </h5>
+                                <h2 className='mt-4 '>07.Madurai</h2>
+                                <h5 className='mt-5 fw-bold' >What is the Best time to visit: </h5>
                             </div>
 
                             <p style={{  fontSize: "18px", }}>
@@ -93,7 +93,7 @@ const Maduraivisit = () => {
                             >
                                 <Modal.Dialog>
                                     <Modal.Header closeButton className='text-center'>
-                                        <Modal.Title>More About Best Time To Travel To Madurai</Modal.Title>
+                                        <Modal.Title className='fw-bold'>More About Best Time To Travel To Madurai</Modal.Title>
                                     </Modal.Header>
 
                                     <Modal.Body >

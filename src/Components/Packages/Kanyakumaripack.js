@@ -35,7 +35,7 @@ const Chennaipack = () => {
       </div>
     <Row >
         <Col md={3} className='mt-5' style={{ margin: "2rem 7.5rem  " }}>
-          <Card >
+          <Card style={{ width:"15rem" }}>
 
             <Card.Img variant="top" src={pic13} />
 
@@ -50,7 +50,9 @@ const Chennaipack = () => {
             </span>
             <Card.Body>
               <p className='text-start fw-bold  fs-5 ' style={{ color:"green" }}>3Nights / 4Days</p>
-              <Card.Title><h5 className='fw-bold'> Kanyakumari and Madurai Packages</h5></Card.Title>
+              <Card.Title> 
+              <h4 className='fw-bold  '> Kanyakumari and Madurai Packages</h4>
+              </Card.Title>
 
               <Card.Text>
                 <h6 style={{ color:"red" }}> packages ₹10,000/-  </h6>
@@ -59,7 +61,7 @@ const Chennaipack = () => {
                   <li> Visit Vivekananda Rock, and Sunrise Point</li>
                 
               </Card.Text>
-              <Button variant="primary" onClick={handleShow}><b>Get Quotes  </b></Button>
+              <Button variant="success" onClick={handleShow}><b> Get Quotes  </b></Button>
             </Card.Body>
           </Card>
         </Col>

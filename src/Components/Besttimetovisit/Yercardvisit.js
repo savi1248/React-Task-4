@@ -16,14 +16,14 @@ const Yercardvisit = () => {
       <section className='mg-sm-5'>
         <div className='row row-cols-2  '>
           <div>
-            <h3 className=''>08.Yercard</h3>
+            <h2 className=''>08.Yercard</h2>
             <div
               className="modal show   "
               style={{ display: 'block', position: 'initial' }}
             >
               <Modal.Dialog>
                 <Modal.Header closeButton className='text-center'>
-                  <Modal.Title>More About Best Time To Travel To Yercard</Modal.Title>
+                  <Modal.Title className='fw-bold'>More About Best Time To Travel To Yercard</Modal.Title>
                 </Modal.Header>
   
                 <Modal.Body>
@@ -52,7 +52,7 @@ const Yercardvisit = () => {
           </div>
        <div>
            <br /><div className=''>
-            <h5 className='mt-5'>What is the best time to visit :</h5>
+            <h5 className='mt-5 fw-bold'>What is the best time to visit :</h5>
   
           </div>
           <div style={{ textAlign: 'justify', textIndent: '16.5rem', lineheight: '160%', fontSize: "18px", }}>

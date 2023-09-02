@@ -17,14 +17,14 @@ const Kumbakonamvisit = () => {
       <section className='mg-sm-5'>
         <div className='row row-cols-2  '>
           <div>
-            <h3 className=''>06.Kumbakonam</h3>
+            <h2 className=''>06.Kumbakonam</h2>
             <div
               className="modal show   "
               style={{ display: 'block', position: 'initial' }}
             >
               <Modal.Dialog>
                 <Modal.Header closeButton className='text-center'>
-                  <Modal.Title>More About Best Time To Travel To Kumbakonam</Modal.Title>
+                  <Modal.Title className='fw-bold'>More About Best Time To Travel To Kumbakonam</Modal.Title>
                 </Modal.Header>
   
                 <Modal.Body>
@@ -53,7 +53,7 @@ const Kumbakonamvisit = () => {
           </div>
        <div>
            <br /><div className=''>
-            <h5 className='mt-5'>What is the best time to visit :</h5>
+            <h5 className='mt-5 fw-bold'>What is the best time to visit :</h5>
   
           </div>
           <div style={{ textAlign: 'justify', textIndent: '16.5rem', lineheight: '160%', fontSize: "18px", }}>
@@ -73,7 +73,7 @@ const Kumbakonamvisit = () => {
         <div>
         <Offcanvas show={show} onHide={handleClose} placement='end' >
                   <Offcanvas.Header closeButton className='text-center '>
-                      <br />   <Offcanvas.Title > <h5>Best Time To Visit In <br /> Kumbakonam</h5>
+                      <br />   <Offcanvas.Title > <h5 className='fw-bold'>Best Time To Visit In <br /> Kumbakonam</h5>
                       </Offcanvas.Title>
                   </Offcanvas.Header>
                   

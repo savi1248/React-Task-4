@@ -12,7 +12,7 @@ const Kodaikanal = () => {
   return (
     <section id='kodaikanal'className='container'>
     <div >
-      <h1 className='primary-heading'>03. Kodaikanal</h1>
+      <h2 className=''>03. Kodaikanal</h2>
       
       <Row className="align-items-center">
         <Col md={6}  className="text-right">
@@ -25,12 +25,12 @@ const Kodaikanal = () => {
         </Col>
         <Col md={6}> 
           <br />
-          <h1 className='primary-text-heading'>
+          <h5 className='fw-bold'>
             "The Princess of Hill Stations"
-          </h1> 
+          </h5> 
           <p className='primary-text'>
             
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             Kodaikanal Tourism Located in the state of Tamil Nadu, Kodaikanal is one of the most famous honeymoon destinations in India. A Lakeside resort town of Tamil Nadu, Kodaikanal has a beautiful climate, mist-covered manicured cliffs and waterfall that come together to create the ideal setting for a perfect getaway. Kodaikanal means the gift of the forests'
             
             <br />
@@ -52,7 +52,7 @@ const Kodaikanal = () => {
           <Card>
             <Card.Img variant="top" src={Kodaikanal1} />
             <Card.Body>
-              <Card.Title>Green Valley Views</Card.Title>
+              <Card.Title className='fw-bold'>Green Valley Views</Card.Title>
               <Card.Text>
               Formerly known as Suicide point, the Green Valley View offers a breathtaking view of the plains, deep...
               </Card.Text>
@@ -64,7 +64,7 @@ const Kodaikanal = () => {
           <Card>
             <Card.Img variant="top" src={Kodaikanal2} />
             <Card.Body>
-              <Card.Title>Kodai Lake</Card.Title>
+              <Card.Title className='fw-bold'>Kodai Lake</Card.Title>
               <Card.Text>
               Kodaikanal Lake is a manmade lake in the Kodaikanal city which is also known as Kodai Lake. Vera...
               </Card.Text>
@@ -76,7 +76,7 @@ const Kodaikanal = () => {
           <Card>
             <Card.Img variant="top" src={Kodaikanal3} />
             <Card.Body>
-              <Card.Title>Bear Shola Falls</Card.Title>
+              <Card.Title className='fw-bold'>Bear Shola Falls</Card.Title>
               <Card.Text>
               Located at a mere distance of 2 kilometres from the Kodaikanal Lake, the Bear Shola Falls is a popular...
               </Card.Text>
@@ -88,7 +88,7 @@ const Kodaikanal = () => {
           <Card>
             <Card.Img variant="top" src={Kodaikanal4} />
             <Card.Body>
-              <Card.Title>Pillar Rocks</Card.Title>
+              <Card.Title className='fw-bold'>Pillar Rocks</Card.Title>
               <Card.Text>
               Situated in the 'Princess of Hill stations', Kodaikanal, the Pillar Rocks have become a lovely picnic...
               </Card.Text>

@@ -16,19 +16,19 @@ const Besttime = () => {
         <section className='mt-5 mg-5' >
             <div className="para-1" >
                 <div className="text-start">
-                    <h4 className="">TAMILNADU TOURISM</h4>
-                    <h3>Best Time To Visit</h3>
+                    <h4 className='fw-bold'>TAMILNADU TOURISM</h4>
+                    <h3 className='fw-bold'>Best Time To Visit</h3>
                 </div>
                 <div className="row row-cols-2 mt-5">
                     <div className="text-center">
                         <img src={img1} style={{ width: "540px", height: "300px" }} />
                         <div >
-                            <h6 className="fs-6">Best Time To Visit</h6>
+                            <h6 className="fs-6 fw-bold">Best Time To Visit</h6>
                         </div>
 
                     </div>
                     <div className="text">
-                        <h5 className="" > More about Best Time To Travel In TamilNadu</h5>
+                        <h5 className='fw-bold' > More about Best Time To Travel In TamilNadu</h5>
 
                         <div>
 

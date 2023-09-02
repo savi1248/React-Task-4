@@ -52,7 +52,9 @@ const Chennaipack = () => {
             </span>
             <Card.Body>
               <p className='text-start fw-bold  fs-5 ' style={{ color:"green" }}>2 Days/1 Night</p>
-              <Card.Title><h5 className='fw-bold'> Rameshwaram Packages</h5></Card.Title>
+              <Card.Title> 
+              <h4 className='fw-bold  '>  Rameshwaram Packages</h4>
+              </Card.Title>
 
               <Card.Text>
                 <h6 style={{ color:"red" }}> packages ₹5,500/-  </h6>

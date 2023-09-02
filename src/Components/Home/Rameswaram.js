@@ -12,7 +12,7 @@ const Rameswaram = () => {
   return (
     <section id='rameswaram'className='container'>
       <div >
-        <h1 className='primary-heading'>02. Rameswaram</h1>
+        <h2>02. Rameswaram</h2>
         
         <Row className="align-items-center">
           <Col md={6}  className="text-right">
@@ -25,9 +25,9 @@ const Rameswaram = () => {
           </Col>
           <Col md={6}> 
             <br />
-            <h1 className='primary-text-heading'>
+            <h5 className='fw-bold'>
               "The Bridge on the Indian Ocean"
-            </h1> 
+            </h5> 
             <p className='primary-text'>
               
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rameshwaram is located on a beautiful island in the South Indian state of Tamil Nadu. It is separated by a small Pamban channel from Sri Lanka. According to Hindu mythology, this is the place where Lord Rama created a bridge across the sea to Sri Lanka.
@@ -52,7 +52,7 @@ const Rameswaram = () => {
                 <Card>
                 <Card.Img variant="top" src={Rameswaram1} />
                 <Card.Body>
-                    <Card.Title>Dhanushkodi Temple</Card.Title>
+                    <Card.Title className='fw-bold'>  Dhanushkodi Temple</Card.Title>
                     <Card.Text>
                     Dhanushkodi was until a few years ago a wonderful temple on the southe tip of India. However, due to a...
                     </Card.Text>
@@ -64,7 +64,7 @@ const Rameswaram = () => {
                 <Card>
                 <Card.Img variant="top" src={Rameswaram2} />
                 <Card.Body>
-                    <Card.Title>Lakshmana Temple</Card.Title>
+                    <Card.Title className='fw-bold'>Lakshmana Temple</Card.Title>
                     <Card.Text>
                     Lakshmana Tirtham had been constructed in the loving memory of Lord Lakshman, brother of Lord Rama. In order...
                     </Card.Text>
@@ -76,7 +76,7 @@ const Rameswaram = () => {
                 <Card>
                 <Card.Img variant="top" src={Rameswaram3} />
                 <Card.Body>
-                    <Card.Title>Rameshwaram Temple</Card.Title>
+                    <Card.Title className='fw-bold'>Rameshwaram Temple</Card.Title>
                     <Card.Text>
                     A perfect blend of mind-boggling architecture and spiritual significance, Rameshwaram Temple, also...
                     </Card.Text>
@@ -88,7 +88,7 @@ const Rameswaram = () => {
                 <Card>
                 <Card.Img variant="top" src={Rameswaram4} />
                 <Card.Body>
-                    <Card.Title>Villoondi Tirtham</Card.Title>
+                    <Card.Title className='fw-bold'>Villoondi Tirtham</Card.Title>
                     <Card.Text>
                     Villoondi Tirtham is a beach which is also considered a sacred natural water body and a favourite amongst tourists...
                     </Card.Text>

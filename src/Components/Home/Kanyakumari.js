@@ -12,7 +12,7 @@ const Kanyakumari = () => {
   return (
     <section id='kanyakumari'className='container'>
     <div >
-      <h1 className='primary-heading'>05. Kanyakumari</h1>
+      <h2 className=''>05. Kanyakumari</h2>
       
       <Row className="align-items-center">
         <Col md={6}  className="text-right">
@@ -25,9 +25,9 @@ const Kanyakumari = () => {
         </Col>
         <Col md={6}> 
           <br />
-          <h1 className='primary-text-heading'>
+          <h5 className='fw-bold'>
             "Cape Comorin or The Land's End"
-          </h1> 
+          </h5> 
           <p className='primary-text'>
             
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kanyakumari Tourism Bordered by the three seas Arabian, Indian and the Bay of Bengal, Kanyakumari is the southernmost tip of the Indian Peninsula. A small coastal town in the state of Tamil Nadu, Kanyakumari was earlier known as Cape Comorin.
@@ -51,7 +51,7 @@ const Kanyakumari = () => {
           <Card>
             <Card.Img variant="top" src={Kanyakumari1} />
             <Card.Body>
-              <Card.Title>Kanyakumari Beach</Card.Title>
+              <Card.Title className='fw-bold'>Kanyakumari Beach</Card.Title>
               <Card.Text>
               Located in the southernmost part of India, Kanyakumari beach with its beautiful hue- changing beaches...
               </Card.Text>
@@ -63,7 +63,7 @@ const Kanyakumari = () => {
           <Card>
             <Card.Img variant="top" src={Kanyakumari2} />
             <Card.Body>
-              <Card.Title>Vivekananda Memorial</Card.Title>
+              <Card.Title className='fw-bold'>Vivekananda Memorial</Card.Title>
               <Card.Text>
               The magnificent Vivekananda Rock Memorial is located on a small island off Kanyakumari. It has the picturesque...
               </Card.Text>
@@ -75,7 +75,7 @@ const Kanyakumari = () => {
           <Card>
             <Card.Img variant="top" src={Kanyakumari3} />
             <Card.Body>
-              <Card.Title>Thiruvalluvar Status</Card.Title>
+              <Card.Title className='fw-bold'>Thiruvalluvar Status</Card.Title>
               <Card.Text>
               Dedicated to the accomplished philosopher and poet Thiruvalluvar, this beautiful statue finds itself...
               </Card.Text>
@@ -87,7 +87,7 @@ const Kanyakumari = () => {
           <Card>
             <Card.Img variant="top" src={Kanyakumari4} />
             <Card.Body>
-              <Card.Title>Thirparappu Falls</Card.Title>
+              <Card.Title className='fw-bold'>Thirparappu Falls</Card.Title>
               <Card.Text>
               Located at a distance of about 55 kilometers from Kanyakumari, the cascading waters of the Thirparappu...
 

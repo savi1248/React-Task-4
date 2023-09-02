@@ -47,7 +47,9 @@ With favorites like Dharasuram Temple, Sarangapani Temple, and Arulmigu Shri Swa
             </span>
             <Card.Body>
               <p className='text-start fw-bold  fs-5 ' style={{ color:"green" }}>2 Nights / 3 Days</p>
-              <Card.Title><h5 className='fw-bold'> Hogennakal Packages</h5></Card.Title>
+              <Card.Title> 
+              <h4 className='fw-bold  '> Hogennakal Packages</h4>
+              </Card.Title>
 
               <Card.Text>
                 <h6 style={{ color:"red" }}> packages ₹7,000/-  </h6>

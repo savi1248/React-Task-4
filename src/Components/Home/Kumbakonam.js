@@ -13,7 +13,7 @@ const Kumbakonam = () => {
   return (
     <section id='kumbakonam'className='container'>
       <div >
-        <h1 className='primary-heading touristPlaceName'>06. Kumbakonam</h1>
+        <h2 className=''>06. Kumbakonam</h2>
         
         <Row className="align-items-center">
           <Col md={6}  className="text-right">
@@ -26,17 +26,17 @@ const Kumbakonam = () => {
           </Col>
           <Col md={6}> 
             <br />
-            <h1 className='primary-text-heading'>
+            <h5 className='fw-bold'>
               "The Cambridge of India"
-            </h1> 
+            </h5> 
             <p className='primary-text'>
               
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kumbakonam Tourism Sandwiched between two great rivers of southern India, Cauvery and Arsala, Kumbakonam is a gorgeous temple town in the heart of the Thanjavur district of Tamil Nadu. The town is a place for the lovers of history and those seeking to understand India's cultural roots and Hinduism.
+              Kumbakonam Tourism Sandwiched between two great rivers of southern India, Cauvery and Arsala, Kumbakonam is a gorgeous temple town in the heart of the Thanjavur district of Tamil Nadu. The town is a place for the lovers of history and those seeking to understand India's cultural roots and Hinduism.
               
               <br />
               <br />
               
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The town is also known for its grand festival called Mahamaham festival which is celebrated every twelve years at the Mahamaham Tank. The town is one of the oldest in Indian history, and known for its famed temples, Chola heritage and also for its marvelous educational institutes. The town is one of the oldest in Indian history, and known for its famed temples, Chola heritage and also for its marvelous educational institutes.
+              The town is also known for its grand festival called Mahamaham festival which is celebrated every twelve years at the Mahamaham Tank. The town is one of the oldest in Indian history, and known for its famed temples, Chola heritage and also for its marvelous educational institutes. The town is one of the oldest in Indian history, and known for its famed temples, Chola heritage and also for its marvelous educational institutes.
             </p>
           </Col>
        </Row>
@@ -52,7 +52,7 @@ const Kumbakonam = () => {
             <Card>
               <Card.Img variant="top" src={Kumbakonam1} />
               <Card.Body>
-                <Card.Title>Sarangapani Temple</Card.Title>
+                <Card.Title className='fw-bold'>Sarangapani Temple</Card.Title>
                 <Card.Text>
                 Sarangapani Temple, an ancient temple dedicated to Lord Vishnu, is located in the town of Kumbakonam...
                 </Card.Text>
@@ -64,7 +64,7 @@ const Kumbakonam = () => {
             <Card>
               <Card.Img variant="top" src={Kumbakonam2} />
               <Card.Body>
-                <Card.Title>Nageswaran Temple</Card.Title>
+                <Card.Title className='fw-bold'>Nageswaran Temple</Card.Title>
                 <Card.Text>
                 Constructed as a chariot, the Nageswaran temple is an important Shaivite temple. A piece of genius Chola...
                 </Card.Text>
@@ -76,7 +76,7 @@ const Kumbakonam = () => {
             <Card>
               <Card.Img variant="top" src={Kumbakonam3} />
               <Card.Body>
-                <Card.Title>Adi Kumbeshwara Temple</Card.Title>
+                <Card.Title className='fw-bold'>Adi Kumbeshwara Temple</Card.Title>
                 <Card.Text>
                 Located in the town of Darasuram near Kumbakonam in Tamil Nadu, Airavatesvara...
                 </Card.Text>
@@ -88,7 +88,7 @@ const Kumbakonam = () => {
             <Card>
               <Card.Img variant="top" src={Kumbakonam4} />
               <Card.Body>
-                <Card.Title>Airavatesvara Temple</Card.Title>
+                <Card.Title className='fw-bold'>Airavatesvara Temple</Card.Title>
                 <Card.Text>
                 Located in the town of Darasuram near Kumbakonam in Tamil Nadu,Airavatesvara Temple is a revered...
                 </Card.Text>
